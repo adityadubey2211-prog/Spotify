@@ -1,0 +1,376 @@
+.sidebar{
+    width:280px;
+    height:100vh;
+    background:#000;
+    padding:8px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.sidebar-top{
+    background:#121212;
+    border-radius:10px;
+    padding:20px;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:1.6rem;
+    font-weight:700;
+    margin-bottom:30px;
+}
+.logo i{
+    color:#1DB954;
+    font-size:2.2rem;
+}
+.menu{
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+}
+.menu a{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    color:#b3b3b3;
+    font-size:1rem;
+    font-weight:600;
+    transition:.3s;
+}
+.menu a i{
+    font-size:1.45rem;
+}
+.menu a:hover{
+    color:#fff;
+}
+.library{
+    flex:1;
+    background:#121212;
+    border-radius:10px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+}
+.library-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+.library-header h3{
+    font-size:1rem;
+    color:#b3b3b3;
+}
+.library-header i{
+    color:#b3b3b3;
+    cursor:pointer;
+}
+.playlist-card{
+    background:#242424;
+    border-radius:10px;
+    padding:18px;
+    margin-bottom:18px;
+}
+.playlist-card h4{
+    margin-bottom:10px;
+}
+.playlist-card p{
+    color:#b3b3b3;
+    font-size:.9rem;
+    margin-bottom:18px;
+}
+.playlist-card button{
+    background:#fff;
+    color:#000;
+    padding:10px 18px;
+    border:none;
+    border-radius:25px;
+    font-weight:700;
+    transition:.3s;
+}
+.playlist-card button:hover{
+    transform:scale(1.05);
+}
+.sidebar-footer{
+    margin-top:auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.sidebar-footer a{
+    color:#a7a7a7;
+    font-size:.75rem;
+}
+.sidebar-footer a:hover{
+    text-decoration:underline;
+}
+/* ===========================
+   GOOGLE FONT & RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    background:#000;
+    color:#fff;
+    display:flex;
+    height:100vh;
+}
+
+a{
+    text-decoration:none;
+    color:#b3b3b3;
+}
+
+button{
+    border:none;
+    cursor:pointer;
+    font-family:'Montserrat',sans-serif;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+.sidebar{
+    width:260px;
+    background:#000;
+    padding:25px 20px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    font-size:1.7rem;
+    font-weight:700;
+
+    margin-bottom:40px;
+}
+
+.logo i{
+    font-size:2.2rem;
+}
+
+.menu{
+    display:flex;
+    flex-direction:column;
+    gap:28px;
+}
+
+.menu a{
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+    font-size:1rem;
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.menu a i{
+    font-size:1.3rem;
+}
+
+.menu a:hover{
+    color:white;
+}
+
+/* ===========================
+   MAIN
+=========================== */
+
+.main{
+    flex:1;
+    background:#121212;
+    border-radius:10px 0 0 10px;
+    overflow-y:auto;
+}
+
+.main::-webkit-scrollbar{
+    width:8px;
+}
+
+.main::-webkit-scrollbar-thumb{
+    background:#444;
+    border-radius:20px;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 35px;
+
+    position:sticky;
+    top:0;
+
+    background:#121212;
+}
+
+/* Left */
+
+.nav-left{
+    display:flex;
+    gap:12px;
+}
+
+.nav-left button{
+    width:35px;
+    height:35px;
+
+    border-radius:50%;
+
+    background:#000;
+    color:white;
+}
+
+.nav-left button:hover{
+    background:#222;
+}
+
+/* Right */
+
+.nav-right{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.premium{
+    background:white;
+    color:black;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    font-weight:700;
+}
+
+.install{
+    background:black;
+    color:white;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    font-weight:700;
+}
+
+.install i{
+    margin-right:8px;
+}
+
+.profile{
+    width:38px;
+    height:38px;
+
+    border-radius:50%;
+
+    background:#2a2a2a;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    padding:35px;
+}
+
+.hero h2{
+    font-size:2rem;
+    margin-bottom:30px;
+}
+
+/* ===========================
+   HERO GRID
+=========================== */
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+/* ===========================
+   HERO CARD
+=========================== */
+
+.hero-card{
+    display:flex;
+    align-items:center;
+
+    background:#2a2a2a;
+
+    border-radius:8px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.hero-card:hover{
+    background:#3a3a3a;
+}
+
+.hero-card img{
+    width:80px;
+    height:80px;
+
+    object-fit:cover;
+}
+
+.hero-card p{
+    margin-left:18px;
+
+    font-weight:700;
+    font-size:1rem;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:900px){
+
+.sidebar{
+    display:none;
+}
+
+.hero-grid{
+    grid-template-columns:1fr;
+}
+
+.nav-right{
+    gap:8px;
+}
+
+.premium,
+.install{
+    padding:8px 14px;
+    font-size:.85rem;
+}
+
+}

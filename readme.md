@@ -1,115 +1,105 @@
 # 🎵 Spotify Clone
 
-A modern and responsive **Spotify Homepage Clone** built using **HTML, CSS, and JavaScript**. This project recreates the look and feel of Spotify's official website with smooth animations, responsive layouts, and interactive UI components.
+A responsive frontend clone of Spotify's homepage created for **Technovation Round 2** at **ABES Engineering College**.
+
+## 🌐 Website Chosen
+
+**Spotify**
+
+The goal was to recreate Spotify's modern user interface while maintaining a clean, responsive, and pixel-perfect design.
+
+---
 
 ## 🚀 Live Demo
 
-> Add your deployed link here after hosting the project.
-
-```
-https://your-live-demo-link.com
-```
+🔗 https://your-vercel-link.vercel.app
 
 ---
 
-## ✨ Features
+## 📂 GitHub Repository
 
-- 🎧 Modern Spotify-inspired UI
-- 📱 Fully Responsive Design
-- 🎨 Smooth Hover Animations
-- 💚 Animated Play Buttons
-- 🎼 Popular Playlist Cards
-- 🎤 Popular Artists Section
-- 📂 Music Categories
-- 🌙 Clean Dark Theme
-- ⚡ Optimized Performance
+🔗 https://github.com/yourusername/spotify-clone
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Google Fonts
-- Font Awesome
 
 ---
 
-## 📂 Project Structure
+## ✨ Features Implemented
 
-```text
-Spotify-Clone/
+- 🎧 Responsive Spotify Homepage
+- 📱 Mobile Friendly Layout
+- 🎵 Sidebar Navigation
+- 🔍 Top Navigation Bar
+- 🎶 Recently Played Section
+- ❤️ Popular Playlists
+- 💿 Album & Artist Cards
+- ▶️ Bottom Music Player UI
+- ✨ Hover Animations
+- 🎨 Spotify-inspired Dark Theme
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots here after completing the project.
+
+---
+
+## 📁 Folder Structure
+
+```
+spotify-clone/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-│
-├── images/
-│   ├── logo.png
-│   ├── hero.jpg
-│   ├── album1.jpg
-│   ├── album2.jpg
-│   └── ...
-│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── fonts/
 └── README.md
 ```
 
 ---
 
-## 🎯 What I Learned
+## 📌 Known Limitations
 
-While building this project, I improved my understanding of:
+- Music playback is not implemented.
+- Authentication is not available.
+- Search functionality is UI only.
+- Playlist data is static.
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project I learned:
 
 - Responsive Web Design
-- CSS Flexbox & Grid
-- Modern UI Design
-- CSS Animations
-- DOM Manipulation
-- Clean Code Structure
+- Flexbox & CSS Grid
+- Modern UI Development
+- Component-based Layout Design
+- JavaScript DOM Manipulation
+- Clean Project Structure
 
 ---
 
-## 📱 Responsive
-
-This project is optimized for:
-
-- 💻 Desktop
-- 💼 Laptop
-- 📱 Mobile
-- 📟 Tablet
-
----
-
-## 🚀 Future Improvements
-
-- 🎵 Music Player UI
-- 🔍 Search Functionality
-- ❤️ Like Button
-- 🌙 Dark/Light Mode
-- 🎼 Dynamic Playlists using API
-
----
-
-## 👨‍💻 Author
+## 👨‍💻 Developer
 
 **Aditya Dubey**
 
-- GitHub: https://github.com/adityadubey2211-prog
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
+B.Tech CSE | ABES Engineering College
+
+GitHub: https://github.com/adityadubey2211-prog
 
 ---
 
-## ⭐ Support
+## ⭐ Acknowledgement
 
-If you found this project helpful, consider giving it a ⭐ on GitHub!
-
----
-
-## 📜 License
-
-This project is created for educational purposes only.
-
-Spotify™ is a trademark of Spotify AB.
-
-This project is not affiliated with or endorsed by Spotify.
+This project was developed for educational purposes as part of the **Technovation Round 2** selection process. All design credits belong to Spotify.
