@@ -285,3 +285,114 @@ button{
     font-size:.95rem;
 }
 }
+.playlist-section{
+    padding:30px;
+}
+.section-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+.section-header h2{
+    font-size:1.7rem;
+    font-weight:700;
+}
+.section-header a{
+    color:#b3b3b3;
+    text-decoration:none;
+    font-size:.9rem;
+    font-weight:600;
+}
+.section-header a:hover{
+    text-decoration:underline;
+    color:#fff;
+}
+.playlist-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:22px;
+}
+.playlist-card{
+    background:#181818;
+    border-radius:10px;
+    padding:16px;
+
+    cursor:pointer;
+
+    position:relative;
+
+    transition:.3s;
+}
+.playlist-card:hover{
+    background:#282828;
+}
+.playlist-card img{
+    width:100%;
+    border-radius:8px;
+    display:block;
+}
+.playlist-card h4{
+    margin:16px 0 8px;
+    font-size:1rem;
+    font-weight:700;
+}
+.playlist-card p{
+    color:#b3b3b3;
+    font-size:.85rem;
+    line-height:1.5;
+}
+.play-btn{
+    position:absolute;
+    right:18px;
+    bottom:95px;
+    width:52px;
+    height:52px;
+    border:none;
+    border-radius:50%;
+    background:#1DB954;
+    color:#000;
+    font-size:1.1rem;
+    cursor:pointer;
+    opacity:0;
+    transform:translateY(12px);
+    transition:.35s;
+}
+.playlist-card:hover .play-btn{
+    opacity:1;
+    transform:translateY(0);
+}
+.play-btn:hover{
+    transform:scale(1.08);
+}
+@media (max-width:1200px){
+
+    .playlist-grid{
+        grid-template-columns:repeat(4,1fr);
+    }
+
+}
+
+@media (max-width:900px){
+
+    .playlist-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+}
+
+@media (max-width:768px){
+
+    .playlist-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media (max-width:500px){
+
+    .playlist-grid{
+        grid-template-columns:1fr;
+    }
+
+}
