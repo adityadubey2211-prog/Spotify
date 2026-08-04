@@ -12,13 +12,13 @@ The goal was to recreate Spotify's modern user interface while maintaining a cle
 
 ## 🚀 Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 https://adityadubey2211-prog.github.io/Spotify/
 
 ---
 
 ## 📂 GitHub Repository
 
-🔗 https://github.com/yourusername/spotify-clone
+🔗 https://github.com/adityadubey2211-prog/Spotify.git
 
 ---
 
@@ -42,12 +42,6 @@ The goal was to recreate Spotify's modern user interface while maintaining a cle
 - ▶️ Bottom Music Player UI
 - ✨ Hover Animations
 - 🎨 Spotify-inspired Dark Theme
-
----
-
-## 📸 Screenshots
-
-> Add screenshots here after completing the project.
 
 ---
 
