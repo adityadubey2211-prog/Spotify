@@ -1,75 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-</head>
-<body>
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <div class="logo">
-            <i class="fa-brands fa-spotify"></i>
-            <span>Spotify</span>
-        </div>
-        <nav class="menu">
-            <a href="#">
-                <i class="fa-solid fa-house"></i>
-                Home
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                Search
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-book"></i>
-                Your Library
-            </a>
-        </nav>
-    </aside>
-    <!-- Main Section -->
-    <main class="main">
-        <!-- Navbar -->
-        <header class="navbar">
-            <div class="nav-left">
-                <button>
-                    <i class="fa-solid fa-chevron-left"></i>
-                </button>
-                <button>
-                    <i class="fa-solid fa-chevron-right"></i>
-                </button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify Clone</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fa-brands fa-spotify"></i>
+                <span>Spotify</span>
             </div>
-            <div class="nav-right">
-                <button class="premium">
-                    Explore Premium
-                </button>
-                <button class="install">
-                    <i class="fa-solid fa-circle-down"></i>
-                    Install App
-                </button>
-                <div class="profile">
-                    <i class="fa-solid fa-user"></i>
+            <nav class="menu">
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-book"></i>
+                    Your Library
+                </a>
+            </nav>
+        </aside>
+        <!-- Main Section -->
+        <main class="main">
+            <!-- Navbar -->
+            <header class="navbar">
+                <div class="nav-left">
+                    <button>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
                 </div>
-            </div>
-        </header>
-        <!-- Hero -->
-        <section class="hero">
-            <h2>Good Evening</h2>
-            <div class="hero-grid">
-                <!-- Card -->
-                <div class="hero-card">
-                    <img src="assets/liked music.jpeg">
-                    <p>Liked Songs</p>
+                <div class="nav-right">
+                    <button class="premium">
+                        Explore Premium
+                    </button>
+                    <button class="install">
+                        <i class="fa-solid fa-circle-down"></i>
+                        Install App
+                    </button>
+                    <div class="profile">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
                 </div>
-            </div>
-        </section>
-<script src="script.js"></script>
-</body>
-</html>
+            </header>
+            <section class="hero">
+                <h2>Good Evening</h2>
+                <div class="hero-grid">
+                    <div class="hero-card">
+                        <img src="assets/liked music.jpeg" alt>
+                        <p>Liked Songs</p>
+                    </div>
+                    <div class="hero-card">
+                        <img src="assets/daily-mix.jpeg" alt>
+                        <p>Daily Mix 1</p>
+                    </div>
+                    <div class="hero-card">
+                        <img src="assets/phonk.jpeg" alt>
+                        <p>Phonk Energy</p>
+                    </div>
+                    <div class="hero-card">
+                        <img src="assets/lofi.jpg" alt>
+                        <p>Lofi Nights</p>
+                    </div>
+                    <div class="hero-card">
+                        <img src="assets/rock.jpg" alt>
+                        <p>Rock Classics</p>
+                    </div>
+                    <div class="hero-card">
+                        <img src="assets/coding.jpg" alt>
+                        <p>Coding Beats</p>
+                    </div>
+                </div>
+            </section>
+            <script src="script.js"></script>
+        </body>
+    </html>
