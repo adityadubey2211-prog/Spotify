@@ -396,3 +396,38 @@ button{
     }
 
 }
+.artist-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+    gap:24px;
+}
+
+.artist-card{
+    background:#181818;
+    border-radius:10px;
+    padding:18px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.artist-card:hover{
+    background:#282828;
+}
+
+.artist-card img{
+    width:100%;
+    aspect-ratio:1;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.artist-card h4{
+    font-size:1rem;
+    margin-bottom:6px;
+}
+
+.artist-card p{
+    color:#b3b3b3;
+    font-size:.9rem;
+}
